@@ -1,13 +1,11 @@
 package com.cc.java;
 
-// import java.sql.*;
+import java.sql.*;
 
 public class App {
 
-        /*
-        
         // Argumente für Connection-Parameter
-        static String conURL = "jdbc:mysql://18.195.65.144:53373/mydb";
+        static String conURL = "jdbc:mysql://3.127.27.95:54690/mydb";
         static String usrStr = "peter";
         static String usrPwd = "abcd1234#";
         
@@ -15,12 +13,8 @@ public class App {
         static Statement stmt;
         static ResultSet rs;
         
-        */
-
+    
     public static void main(String[] args) {
-
-
-        /*
         
         try {
            
@@ -35,7 +29,7 @@ public class App {
                 Statement stmt = con.createStatement();
 
                 // Executing the query and storing the result in a ResultSet object
-                ResultSet rs = stmt.executeQuery("SELECT * FROM mydb.employees");
+                ResultSet rs = stmt.executeQuery("SELECT * FROM mydb.employee");
 
                 // Iterating through the ResultSet and printing the contents
                 while (rs.next()) {
@@ -69,7 +63,6 @@ public class App {
             e.printStackTrace();
         }
 
-        */
 
     } /* End of main-method */
         

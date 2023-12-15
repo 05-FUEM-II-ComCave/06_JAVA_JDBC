@@ -1,0 +1,23 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/usr/share/java/mariadb-java-client.jar"
+    ],
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "3.127.27.95",
+            "port": 54690,
+            "driver": "MySQL",
+            "name": "remote",
+            "database": "mydb",
+            "username": "peter",
+            "password": "abcd1234#",
+            "connectionTimeout": 50
+        }
+    ]
+}
